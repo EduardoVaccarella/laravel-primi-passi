@@ -4,24 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>page2</title>
 </head>
 <body>
 
     <h1>
-        Team
+        Questa é la page 2
     </h1>
 
     <ul>
-        @foreach($team as $member)
         <li>
-            {{ $member['name'] }}
-        </li>
-        @endforeach
-
-        <li>
-            <a href="/"></a>
-            <a href="/page2">Page 2</a>
+            <a href="/">Torna a Home</a>
         </li>
     </ul>
 
